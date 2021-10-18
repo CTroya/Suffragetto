@@ -1,0 +1,36 @@
+{
+    "tasks": [
+        {
+            "type": "cppbuild",
+            "label": "C/C++: gcc-9 compilar archivo activo",
+            "command": "/usr/bin/gcc-9",
+            "args": [
+                "funcionesGtk.c",
+                "aiPlay.c",
+                "main.c",
+                "suffragetto.c",
+                "-o",
+                "main",
+                "`pkg-config",
+                "--cflags",
+                "gtk+-3.0`",
+                "`pkg-config",
+                "--libs",
+                "gtk+-3.0`",
+            
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "detail": "Tarea generada por el depurador."
+        }
+    ],
+    "version": "2.0.0"
+}

@@ -1,0 +1,22 @@
+{
+    "files.associations": {
+        "suffragetto.h": "c",
+        "limits.h": "c",
+        "cstdio": "c",
+        "cctype": "c",
+        "climits": "c",
+        "cmath": "c",
+        "cstdarg": "c",
+        "cstdlib": "c",
+        "type_traits": "c",
+        "limits": "c",
+        "*.tcc": "c",
+        "cinttypes": "c",
+        "cstdbool": "c",
+        "cstdint": "c",
+        "typeinfo": "c",
+        "stdio.h": "c",
+        "stdarg.h": "c"
+    },
+    "C_Cpp.errorSquiggles": "Disabled"
+}
